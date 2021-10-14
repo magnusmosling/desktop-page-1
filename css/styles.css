@@ -1,36 +1,48 @@
 body {
   background-color: aliceblue;
-}
-
-.app-header {
-  padding-bottom: 1em;
-}
-
-.inner {
-  background-color: aqua;
   max-width: 987px;
-  height: 48px;
   margin: 0 auto;
+}
+
+.div-header {
+  background-color: aqua;
+  height: 48px;
 }
 
 .div-main {
   background-color: #315fa4;
-  max-width: 987px;
   height: 420px;
+  margin-bottom: 20px;
+}
+
+.container {
   margin: 0 auto;
 }
-
-.line-bar {
-  padding-bottom: 1em;
+.col {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 220px;
+  background-color: #ca1dcd;
+  display: block;
 }
-
-.footer {
-  padding-bottom: 1em;
+.col:nth-child(3) {
+  margin-right: 0px;
 }
 
 .div-footer {
   background-color: #c01887;
-  max-width: 987px;
   height: 172px;
-  margin: 0 auto;
+}
+@media screen and (min-width: 767px) {
+  body {
+    background-color: red;
+    max-width: 987px;
+    margin: 0 auto;
+  }
+  .col {
+    width: 313px;
+    margin-right: 20px;
+    height: 220px;
+    display: inline-block;
+  }
 }

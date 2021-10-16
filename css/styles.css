@@ -13,6 +13,48 @@ body {
   background-color: #315fa4;
   height: 420px;
   margin-bottom: 20px;
+
+}
+
+
+.main-div-1{
+  width: 100%;
+background-color: #315fa4;
+height: 420px;
+margin-bottom: 20px;
+display: block;
+}
+
+.main-div-2{
+  width: 100%;
+  background-color: #315fa4;
+  height: 620px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+
+.div-detail{
+height: 220px;
+background-color: #1DCD79;
+margin-bottom: 20px;
+}
+
+
+.div-1 {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 460px;
+  background-color: #ca1dcd;
+  display: block;
+}
+
+.div-2 {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 220px;
+  background-color: #ca1dcd;
+  display: block;
 }
 
 .container {
@@ -29,20 +71,99 @@ body {
   margin-right: 0px;
 }
 
+.div-detail:nth-child(4) {
+  margin-right: 0px;
+  }
+
+.div-detail-1:nth-child(8) {
+  margin-right: 0px;
+  }
+
+.div-detail-1:nth-child(12) {
+  margin-right: 0px;
+  }
+  
+
+
 .div-footer {
   background-color: #c01887;
   height: 172px;
+  display: block;
 }
 @media screen and (min-width: 767px) {
+
   body {
     background-color: red;
     max-width: 987px;
     margin: 0 auto;
   }
+
+
+  .main-div-1{
+    background-color: #315fa4;
+    height: 620px;
+    width: 399px;
+    margin-bottom: 20px;
+    display: inline-block;
+    
+    }
+    
+    .main-div-2{
+      background-color: #315fa4;
+      height: 620px;
+      width: 568px;
+      margin-bottom: 20px;
+      float: right;
+    }
+
+    .div-detail {
+      background-color: #1DCD79;
+      margin-right: 21px;
+      height: 220px;
+      width: 231px;
+      float: left;
+
+    }
+
+
+    .div-detail-1{
+      background-color: #1DCD79;
+      margin-right: 21px;
+      margin-bottom: 20px;
+      height: 220px;
+      width: 231px;
+      float: left;
+    }
+
+
+  .div-1 {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    height: 220px;
+    width: 651px;
+    background-color: #ca1dcd;
+    display: inline-block;
+  }
+  
+  .div-2 {
+    margin-bottom: 20px;
+    height: 220px;
+    width: 315px;
+    background-color: #ca1dcd;
+    float: right;
+  }
+  
+
   .col {
     width: 313px;
     margin-right: 20px;
     height: 220px;
     display: inline-block;
   }
+  .div-footer {
+    background-color: #c01887;
+    width: 987;
+    height: 266px;
+    display: inline-block;
+    }
 }
